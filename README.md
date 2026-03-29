@@ -74,3 +74,14 @@ Key Insights
 Future Improvements
 I acknowledge the limitations I had for this research. For future improvements, it would be worth it to analyse the relationship between GDP per coutnry with the Press Freedom score for a longer period of time. Having datasets with information for 10 years would be much more representative. 
 Also, expanding the analysis to non-EU countries could give interesting results. It is widely known that democracy and freedom of speech in the EU are fundamental for its existence; the overall score for press freedom is expected to be higher than in other non-EU countries. Would be interesting to observe the correlation between it and economic stability in the South American and Asian countries.
+
+
+
+
+Sources: 
+
+1. Press freedom linked to greater financial stability, finds global study, URL[https://doi.org/10.1016/j.ejpoleco.2022.102236].
+2. The Role of Press Freedom in Economic Development: A Global Perspective, URL[https://www.researchgate.net/publication/235921387_The_Role_of_Press_Freedom_in_Economic_Development_A_Global_Perspective]
+3. Press freedom, market information, and international trade, URL[https://doi.org/10.1016/j.ejpoleco.2022.102236]
+4. Examine the Validity of the World Press Freedom Index : Analysis of the Relationship between Nominal per Capita GDP, Media Credibility, Democracy Index, and World Press Freedom Index, URL[https://www.researchgate.net/publication/390641982_Examine_the_Validity_of_the_World_Press_Freedom_Index_Analysis_of_the_Relationship_between_Nominal_per_Capita_GDP_Media_Credibility_Democracy_Index_and_World_Press_Freedom_Index]
+   
