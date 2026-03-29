@@ -58,6 +58,8 @@ A separate analysis was performed for Bulgaria:
 	•	GDP and press freedom were plotted over time (2020–2023)
 	•	A dual-axis line chart was used for better comparison
 
+Note* The graphic showed very interesting results for Bulgaria. A sharp decline in Press Freedom for 2022, while the GDP grows steadily. This highlights the need for more in-depth qualitative analysis to understand what other indicators played such a key role in the Press Score results. 
+
 
  Correlation Analysis
 	•	EU Countries:
@@ -65,6 +67,7 @@ Correlation ≈ 0.12 -> very weak relationship
 	•	Bulgaria:
 Correlation ≈  -0.47 -> very, very weak relationship. N.B. Due to the limited amount of data, the correlation is not reliable for drawing conclusions.
 
+These results show that the relation between GDP per Country and Press Freedom is very limited. 
 
 Key Insights
 	•	The relationship between GDP and press freedom is weak
@@ -75,7 +78,8 @@ Future Improvements
 I acknowledge the limitations I had for this research. For future improvements, it would be worth it to analyse the relationship between GDP per coutnry with the Press Freedom score for a longer period of time. Having datasets with information for 10 years would be much more representative. 
 Also, expanding the analysis to non-EU countries could give interesting results. It is widely known that democracy and freedom of speech in the EU are fundamental for its existence; the overall score for press freedom is expected to be higher than in other non-EU countries. Would be interesting to observe the correlation between it and economic stability in the South American and Asian countries.
 
-
+Notes:
+1. For better reading of the results, I used "Cyprus" instead of "The Republic of Cyprus".
 
 
 Sources: 
@@ -83,5 +87,5 @@ Sources:
 1. Press freedom linked to greater financial stability, finds global study, URL[https://doi.org/10.1016/j.ejpoleco.2022.102236].
 2. The Role of Press Freedom in Economic Development: A Global Perspective, URL[https://www.researchgate.net/publication/235921387_The_Role_of_Press_Freedom_in_Economic_Development_A_Global_Perspective]
 3. Press freedom, market information, and international trade, URL[https://doi.org/10.1016/j.ejpoleco.2022.102236]
-4. Examine the Validity of the World Press Freedom Index : Analysis of the Relationship between Nominal per Capita GDP, Media Credibility, Democracy Index, and World Press Freedom Index, URL[https://www.researchgate.net/publication/390641982_Examine_the_Validity_of_the_World_Press_Freedom_Index_Analysis_of_the_Relationship_between_Nominal_per_Capita_GDP_Media_Credibility_Democracy_Index_and_World_Press_Freedom_Index]
+4. Examine the Validity of the World Press Freedom Index: Analysis of the Relationship between Nominal per Capita GDP, Media Credibility, Democracy Index, and World Press Freedom Index, URL[https://www.researchgate.net/publication/390641982_Examine_the_Validity_of_the_World_Press_Freedom_Index_Analysis_of_the_Relationship_between_Nominal_per_Capita_GDP_Media_Credibility_Democracy_Index_and_World_Press_Freedom_Index]
    
