@@ -61,7 +61,26 @@ A separate analysis was performed for Bulgaria:
 Note* The graphic showed very interesting results for Bulgaria. A sharp decline in Press Freedom for 2022, while the GDP grows steadily. This highlights the need for more in-depth qualitative analysis to understand what other indicators played such a key role in the Press Score results. 
 
 
- Correlation Analysis
+ Correlation Analysis:
+
+ For the correlation analysis, the integrated Python Pearson Correlation Coefficient was used. This method is suitable for this scenario as it measures a linear relationship between GDP and Press Freedom score. The Pearson Correlation Coefficient is calculated using the following formula:
+
+\[
+r = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}
+{\sqrt{\sum_{i=1}^{n}(x_i - \bar{x})^2} \cdot \sqrt{\sum_{i=1}^{n}(y_i - \bar{y})^2}}
+\]
+
+Where the used terms are:
+\begin{itemize}
+    \item $x_i$ -- GDP value for observation $i$
+    \item $y_i$ -- Press Freedom score for observation $i$
+    \item $\bar{x}$ -- mean (average) GDP across all observations
+    \item $\bar{y}$ -- mean (average) Press Freedom score
+    \item $n$ -- total number of observations
+    \item $r$ -- Pearson correlation coefficient
+\end{itemize}
+
+
 	•	EU Countries:
 Correlation ≈ 0.12 -> very weak relationship
 	•	Bulgaria:
