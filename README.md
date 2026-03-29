@@ -1,12 +1,15 @@
 GDP vs Press Freedom Analysis (EU Countries)
 
- Project Overview
+Project Overview
 
-This project investigates the relationship between economic performance (GDP) and press freedom across European Union countries during the period 2020–2023.
+My project builds on existing research that examines the relationship between the World Press Freedom Index and broader indicators of economic and political development. Although the press freedom index is widely used, its credibility has been questioned, making it important to compare it with other measures such as GDP per capita, the democracy index, and the global freedom index.
+Previous studies have found that countries with higher levels of economic prosperity, democratic governance, and civil freedoms tend to score higher on press freedom. In particular, regression analyses show positive relationships between press freedom and these indicators, while grouped comparisons reveal that countries with stronger economic and democratic conditions consistently exhibit higher press freedom levels.
+Building on these findings, this project further explores these relationships, comparing two datasets: "GDP per country" and "Press Freedom score". By replicating and extending this type of analysis, the project aims to better understand how press freedom is associated with key global development indicators and to evaluate whether similar patterns can be observed in the data used here.
+For my project, I decided to analyse only the countries in the European Union. Due to the fact that the "GDP per Country" dataset examines data from 2020-2025, while the "Press Freedom Score" from 1979 until 2025, I made the decision to limit my research only to 2023. I deliberately chose this year because the previous three years, 2020, 2021, and 2022 (which are common to both datasets), were highly affected by the COVID-19 pandemic, and I expect that the results wouldn't be representative enough for all the EU countries. 
+The results of my first analysis were contrary to what I expected to find, which is the reason why I decided to conduct a case study with one specific country for a period of three years. In it, I  compared both the GDP and the Press Freedom score for a period of 3 years. The aim is to observe whether there is a connection between the two indicators for a longer time period in an isolated case(not being compared with other bigger, smaller, richer, or poorer countries). For this analysis, I chose Bulgaria due to my own proximity to the country. 
+
 
 The main objective is to determine whether countries with higher GDP tend to have higher levels of press freedom.
-
-⸻
 
  Datasets
 
@@ -30,7 +33,7 @@ The following steps were performed:
 	•	Converted GDP data from wide to long format
 	•	Filtered data for the years 2020–2023
 	•	Selected only EU countries
-	•	Standardized country names (e.g. “Czech Republic” → “Czechia”)
+	•	Standardized country names (e.g., “Czech Republic” → “Czechia”)
 	•	Removed missing values
 	•	Converted data types for consistency
 	•	Merged datasets using:
