@@ -1,5 +1,4 @@
 GDP vs Press Freedom Analysis (EU Countries)
-
 Project Overview
 
 My project builds on existing research that examines the relationship between the World Press Freedom Index and broader indicators of economic and political development. Although the press freedom index is widely used, its credibility has been questioned, making it important to compare it with other measures such as GDP per capita, the democracy index, and the global freedom index.
@@ -11,7 +10,7 @@ The results of my first analysis were contrary to what I expected to find, which
 
 The main objective is to determine whether countries with higher GDP tend to have higher levels of press freedom.
 
- Datasets
+ I used the following two datasets:
 
 1. GDP Dataset
 	•	Contains GDP values for multiple countries
@@ -21,28 +20,24 @@ The main objective is to determine whether countries with higher GDP tend to hav
 2. World Press Freedom Dataset
 	•	Contains press freedom scores by country and year
 	•	Includes:
-	•	Country
-	•	Year
-	•	Score
+		•	Country
+		•	Year
+		•	Score
 
-⸻
-
-Data Processing
+Data Processing:
 
 The following steps were performed:
 	•	Converted GDP data from wide to long format
-	•	Filtered data for the years 2020–2023
+	•	Filtered data for the year 2023 (for the EU countries) and the years 2020–2023 (for my "Bulgaria" case study)
 	•	Selected only EU countries
 	•	Standardized country names (e.g., “Czech Republic” → “Czechia”)
 	•	Removed missing values
 	•	Converted data types for consistency
 	•	Merged datasets using:
-	•	Country
-	•	Year
+		•	Country
+		•	Year
 
-⸻
-
- Final Dataset
+ Final Dataset:
 
 The final dataset contains the following columns:
 	•	Country
@@ -50,53 +45,32 @@ The final dataset contains the following columns:
 	•	GDP_value
 	•	Press Freedom Score
 
-⸻
+ Analysis:
 
- Analysis
+1. Combined Bar and Line plot
+   A combined bar and line chart was used to visualize the relationship between GDP and press freedom across countries in 2023.
+The bar chart represents GDP values for each country, while a line plot overlaid on a secondary axis shows the corresponding press freedom scores. This dual-axis approach allows for a direct comparison between economic performance and press freedom within the same visualization.
+Each country is represented along the x-axis, with GDP displayed on the left y-axis and press freedom scores on the right y-axis. This method makes it easier to observe patterns and compare how press freedom varies alongside GDP across different countries.
 
-1. Scatter Plot
-
-A scatter plot was used to visualize the relationship between GDP and press freedom.
-Each point represents a country-year observation.
-
-2. Log-Log Plot
-
-A log-log transformation was applied to better visualize differences in GDP across countries.
-
-3. Country-Specific Analysis (Bulgaria)
+2. Country-Specific Analysis (Bulgaria)
 
 A separate analysis was performed for Bulgaria:
 	•	GDP and press freedom were plotted over time (2020–2023)
 	•	A dual-axis line chart was used for better comparison
 
-⸻
 
  Correlation Analysis
 	•	EU Countries:
-Correlation ≈ 0.12 → very weak relationship
+Correlation ≈ 0.12 -> very weak relationship
 	•	Bulgaria:
-Calculated separately (limited observations)
+Correlation ≈  -0.47 -> very, very weak relationship. N.B. Due to the limited amount of data, the correlation is not reliable for drawing conclusions.
 
-⸻
 
 Key Insights
 	•	The relationship between GDP and press freedom is weak
 	•	Economic performance alone does not strongly determine media freedom
 	•	Other political and social factors likely play a significant role
-	•	Log-scale visualization improves interpretability
-
-⸻
-
-Technologies Used
-	•	Python 
-	•	pandas
-	•	matplotlib
-	•	seaborn
-	•	Jupyter Notebook
-
-
+	
 Future Improvements
-	•	Include more years of data
-	•	Analyze additional countries
-	•	Use GDP per capita instead of total GDP
-	•	Apply regression models
+I acknowledge the limitations I had for this research. For future improvements, it would be worth it to analyse the relationship between GDP per coutnry with the Press Freedom score for a longer period of time. Having datasets with information for 10 years would be much more representative. 
+Also, expanding the analysis to non-EU countries could give interesting results. It is widely known that democracy and freedom of speech in the EU are fundamental for its existence; the overall score for press freedom is expected to be higher than in other non-EU countries. Would be interesting to observe the correlation between it and economic stability in the South American and Asian countries.
